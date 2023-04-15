@@ -1,0 +1,39 @@
+.grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #A3D9FF;
+    border-radius: 7px;
+    border: solid #A3D9FF 3px;
+
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #DA3E52;
+    border-radius: 10px;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #96E6B3;
+}
+
+#score{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
